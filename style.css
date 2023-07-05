@@ -1,0 +1,302 @@
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3E4857;
+    background-color: #F3F4FF;
+}
+
+.container{
+    max-width: 75rem;
+    margin: 2rem auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*      HEADER      */
+
+.header{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.logo{
+    font-weight: bold;
+    margin: 0 1rem ;
+    
+}
+.logoPage{
+    color: #3A83F6;
+}
+
+.navAndLogIn{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 50%;
+    margin: 0 1rem;
+}
+
+.logIn{
+    display: flex;
+    align-items: center;
+
+}
+.loginBtn{
+    background-color: #2C6ED5;
+    color: #FFFF;
+    border-radius: 0.2rem;
+    padding: .8rem 2rem;
+    border-width: 0;
+    font-weight: 600;
+}
+
+.lang{
+    color: #2C6ED5;
+    margin: 1rem;
+    text-decoration: none;
+}
+.arrowDown{
+    transform: rotate(45deg);
+    border: solid #2C6ED5;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding:  3px;
+    margin: 0.2rem .2rem;
+}
+
+
+/*      MAIN        */
+
+.main{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstTitle{
+    margin: .5rem 0;
+}
+.secondTitle{
+    margin: 0 auto;
+    width: 25%;
+    color: #3A83F6;
+    border: 2px dashed #3A83F6 ;
+    
+ 
+}
+.info{
+    
+    margin: 1rem auto;
+    color: #8B929A;
+    text-align: center;
+}
+.info .mainInfo{
+    width: 30%;
+    font-size: .7rem;
+}
+
+.GetStartedBtn{
+    width: 10rem;
+    margin: 0 auto;
+    background-color: #3A83F6;
+    color: #FFF;
+    border-width: 0;
+    border-radius: .2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: .7rem 0;
+    
+}
+
+.mainImg{
+   width: 80%;
+   margin: 0 auto;
+}
+
+/*      WHY ME PAGE       */
+
+.whyMe{
+   
+    max-width: 70rem;
+    margin: 0 auto;
+    position: relative;
+}
+.whyMeimgBg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+
+.titleTxt{
+    text-align: center;
+    color: #8FB4F1;
+    letter-spacing: .3rem;
+    font-size: .9rem;
+    margin-top: 3rem;
+    text-transform: uppercase;
+}
+.titleTxtBig{
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.whyMeBlocks{
+    width: 90%;
+    display: flex;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.block{
+    width: 27%;
+    background-color: #FFF;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1px solid #3E4857 ;
+    box-shadow: 5px 5px 0 0px #C0D9FF;
+    transition: box-shadow .2s;
+}
+.block:hover{
+    box-shadow: 5px 5px 0 0px #1D77FD;
+}
+
+.blockTitle{
+    width: 100%;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.blockTitle .centerLogo{
+    display: block;
+   margin: 0 auto;
+    width: 35%;
+    
+
+}
+
+.blockTitle .bold{
+    font-weight: 800;
+   
+}
+.blockTitle h3{
+    font-weight: 100;
+    font-size: 1rem;
+}
+.blockTitle .lover{
+    margin: .5rem;
+}
+
+.blockTitle::after{
+    display: block;
+    content: "";
+    height: 1px;
+    width: 90%;
+    background-color: #3E4857;
+    margin: .8rem 0;
+}
+
+
+.center{
+    text-align: center;
+}
+.blockOption h3{
+    font-size: 1rem;
+    margin: 1rem .5rem;
+    font-weight: 100;
+}
+.blockOption .icon{
+    display: block;
+    margin: 1rem auto;
+}
+
+.line::after{
+    display: block;
+    content: "";
+    height: 1px;
+    width: 90%;
+    background-color: #DDE0E4;
+}
+
+.info .whyMeInfo{
+    display: block;
+    width: 67%;
+    text-align: center;
+    margin: 2rem auto;
+    line-height: 1.5rem;
+    font-size: .9rem;
+}
+
+.whyMeBtn{
+    margin: 1rem auto;
+}
+
+
+
+/*      ABOUT       */
+
+
+
+
+.aboutBlock{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.aboutImg{
+    width: 49%;
+    padding: .3rem;
+}
+.aboutImg img{
+    width: 100%;
+}
+.aboutInfo{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .3rem  4rem;
+}
+.aboutInfoTitle{
+    font-weight: 700;
+}
+
+.aboutInfoTxt{
+    color: #8B929A;
+   
+}
+
+.info .aboutInfo{
+    display: block;
+    width: 48%;
+    text-align: center;
+    margin: 2rem auto;
+    line-height: 1.5rem;
+    font-size: .9rem;
+}
+
+
+/*      PRICE LIST      */
+
+.priceList{
+    width: 100%;
+    position: relative;
+
+}
+
+.priceListBg{
+    width: 100%;
+    position: absolute;
+}
