@@ -185,7 +185,7 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
-.blockTitle .bold{
+.bold{
     font-weight: 800;
    
 }
@@ -290,13 +290,88 @@ h1,h2,h3,h4,h5,h6{
 
 /*      PRICE LIST      */
 
-.priceList{
-    width: 100%;
+.priceListBlock{
+    max-width: 80rem;
     position: relative;
+    margin: 0 auto;
 
 }
 
 .priceListBg{
     width: 100%;
     position: absolute;
+    z-index: -1;
 }
+
+.priceList{
+    width: 100%;
+    background-color: #FFF;
+    border-radius: .5rem;
+    border: 1px solid #3E4857 ;
+    box-shadow: 5px 5px 0 0px #C0D9FF;
+    display: flex;
+}
+
+.priceBlock{
+    box-sizing: content-box;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    color: #3E4957;
+    padding: 2rem 0 ;
+}
+
+.priceInfo{
+
+}
+
+.benefits{
+    margin: 1rem 0;
+}
+
+.priceOprion{
+    margin: .6rem 0;
+    
+    font-size: 1.2rem;
+}
+
+.priceListCost{
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    
+}
+
+.priceListTime{
+    font-size: .9rem;
+    color: #8B929A;
+}
+.popular{
+    font-size: .8rem;
+    background-color:  #F3F8FF ;
+    color: #3A83F6;
+    border: 1px solid #3A83F6;
+    border-radius: .3rem;
+    padding: .2rem .5rem;
+   
+}
+
+.priceBlockBlue{
+    background-color:#3A83F6 ;
+    color: #FFF;
+    border-radius: .3rem;
+}
+
+.underLine{
+
+}
+.underLine::after{
+    display: block;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #3E4857;
+}
+
