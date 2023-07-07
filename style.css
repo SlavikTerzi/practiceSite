@@ -133,12 +133,12 @@ p{
 .whyMe{
     margin: 0 auto;
     position: relative;
-   
+    max-width: 81.25rem;
 }
 .whyMeimgBg{
     position: absolute;
     z-index: -1;
-    max-width: 92.8rem;
+    width: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -281,6 +281,7 @@ p{
     padding: .3rem   0 0 0rem;
     
 }
+
 .aboutInfoTitle{
     font-weight: 700;
     font-size: 2.5rem;
@@ -307,7 +308,7 @@ p{
 /*      PRICE LIST      */
 
 .priceListBlock{
-    max-width: 80rem;
+    max-width: 90rem;
     position: relative;
     margin: 0 auto;
 
@@ -317,6 +318,7 @@ p{
     width: 100%;
     position: absolute;
     z-index: -1;
+    
 }
 
 .priceList{
@@ -327,6 +329,8 @@ p{
     box-shadow: 5px 5px 0 0px #C0D9FF;
     display: flex;
     padding: 1rem;
+    position: relative;
+    box-sizing: border-box;
 }
 
 .priceBlock{
@@ -348,31 +352,60 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+}
+.currency{
+    position: absolute;
+    background-color: #FFF;
+    color: #3E4957;
+    text-decoration: none;
+    border-radius: .3rem;
+    border: 1px solid #3E4957;
+    padding: 0.3rem;
+}
+.arrowDown2{
+    transform: rotate(45deg);
+    border: solid #3E4957;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding:  3px;
+    margin: 0.2rem .2rem;
 }
 
 .benefits{
-    margin: 1.3rem 0;
+    margin-top: 3.49rem ;
+    margin-bottom: 1rem;
 }
 
 .priceOprion{
     
-    height: 5rem;
+    height: 3rem;
     font-size: 1.2rem;
 }
 .priceOprion img{
-    margin-top: 3px;
+    width: 9%;
 }
 
 .priceListCost{
     text-align: center;
     font-size: 1.3rem;
-    margin: 1rem 0;
+    margin-bottom: 1.75rem;
+    margin-top: 1rem;
     
+}
+.priceListCost .cost{
+    font-weight: 700;
+    font-size: 1.75rem;
 }
 
 .priceListTime{
     font-size: .9rem;
     color: #8B929A;
+}
+
+.priceListTimeBetter{
+    color: #FFF;
+    font-size: .9rem;
 }
 .popular{
     font-size: .8rem;
@@ -391,13 +424,239 @@ p{
 }
 
 .underLine{
-
-}
-.underLine::after{
-    display: block;
-    content: "";
+    margin: 0;
     height: 1px;
     width: 100%;
-    background-color: #3E4857;
+    background-color: #F5F5F5;
 }
 
+/*      SCOPE      */
+
+.scope{
+    display: flex;
+    justify-content: space-between;
+}
+
+.scopeBlock{
+    width: 24%;
+    border-radius: 0.3rem;
+    border: 1px solid #E2E9FC;
+    display: flex;
+    padding: 1rem 3rem;
+    box-sizing: border-box;
+
+}
+.scopeNumbers{
+    margin: 0 1rem;
+}
+
+.scopeNumbers p{
+    color: #8B929A;
+}
+
+/*      FAQ     */
+
+
+
+.faq{
+    display: flex;
+    justify-content: space-between;
+}
+.info .aboutInfoFaq{
+    width: 70%;
+}
+
+
+.faqBlocks{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.faqImg{
+    width: 45%;
+}
+
+.faqBlock{
+    width: 100%;
+    background-color: #FFF;
+    border-radius: .3rem;
+    border: 1px solid #8B929A;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqBlock h2{
+    margin: 1rem;
+    font-size: 1.125;
+}
+
+.addInfo{
+    display: none;
+    margin: 1rem;
+    color: #8B929A;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.faqUnderline{
+    display: none;
+    height: 1px;
+    width: 90%;
+    margin: 0 1rem;
+    background-color:#DDE0E4 ;
+}
+.active{
+    display: block;
+}
+
+
+/*      TAMPATES        */
+
+.templates{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.templatesRow{
+    display: flex;
+   
+    justify-content: space-between;
+    box-sizing: border-box;
+   
+}
+
+.templatesImg{
+    width: 32%;
+    margin: 1rem 0;
+}
+
+.templatesBtn{
+    width: 17%;
+    background-color: #FFF;
+    margin: 2rem auto;
+    border-radius: .3rem;
+    border: 1px solid #3A83F6;
+    color: #3A83F6;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+/*      ARTICLES        */
+
+
+.articles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.articlesBlock{
+    width: 30%;
+    padding: 1rem;
+    border-radius: .3rem;
+    border: 1px solid #E2E9FC;
+}
+
+.articleskImg{
+    width: 100%;    
+    margin-bottom: 1rem;
+}
+
+.articlesTips{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.articlesTipsDate{
+    font-weight: 400;
+    color: #8B929A;
+}
+
+.articlesNameBlock{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.articlesInfo{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #8B929A;
+    margin-bottom: 1rem;
+}
+
+.articlesBtn{
+    width: 100%;
+    background-color: #FFF;
+    border-radius: .3rem;
+    border: 1px solid #3A83F6;
+    color: #3A83F6;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.articlesSlider{
+    width: 15%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articlesDot{
+    
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color: #D8E6FD;
+}
+
+.articlesActiveDot{
+    width: 2.5rem;
+    border-radius: .5rem;
+    background-color: #3A83F6;
+}
+
+/*      READY TO TRY        */
+
+.readyToTry{
+   width: 100%;
+    background-color: #3A83F6;
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    margin: 0 auto;
+    
+}
+
+
+.readyToTryImg{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.centerTxtImg{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.centerTxtImg img{
+    width: 30%;
+    margin: 0 1rem;
+}
+
+.readyToTryInfo{
+    width: 90%;
+    margin: 0 auto;
+}
