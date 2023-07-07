@@ -633,22 +633,25 @@ p{
     position: relative;
     text-align: center;
     color: #FFF;
-    margin: 0 auto;
+    padding: 3rem 0;
     
 }
 
 
 .readyToTryImg{
+    width: 100%;
     position: absolute;
     left: 0;
     right: 0;
     z-index: -1;
+    margin: 1rem  auto;
 }
 
 .centerTxtImg{
-    width: 40%;
-    margin: 0 auto;
+    width: 30%;
+    margin: 1rem auto;
     display: flex;
+    justify-content: space-around;
     
 }
 .centerTxtImg img{
@@ -657,6 +660,63 @@ p{
 }
 
 .readyToTryInfo{
-    width: 90%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 1rem auto;
+}
+
+.whyMeBtn{
+    background-color: #FFF;
+    color: #3A83F6;
+    margin: 1rem 0;
+}
+
+/*      FOOOTER     */
+
+.footer{
+    width: 100%;
+    background-color: #353F4B;
+    padding: 5rem 0;
+}
+
+.footerNavigation{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.footerMePage{
+    width: 40%;
+}
+.footerMePageImg{
+    margin: 1rem 0;
+}
+
+.footerMePageInfo{
+    color: #8B929A;
+    margin: 1rem 0;
+}
+
+.footerMePageSocial a{
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.quickLinks{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.quickLinksTitle{
+    color: #FFF;
+    margin: 1.5rem 0;
+
+}
+
+.quickLinks .link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #8B929A;
+    margin: .7rem 0;
 }
