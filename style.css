@@ -6,13 +6,16 @@ body{
 }
 
 .container{
-    max-width: 75rem;
+    max-width: 81.25rem;
     margin: 2rem auto;
 }
 
 h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
+}
+p{
+    margin: 0;
 }
 
 
@@ -52,7 +55,8 @@ h1,h2,h3,h4,h5,h6{
     background-color: #2C6ED5;
     color: #FFFF;
     border-radius: 0.2rem;
-    padding: .8rem 2rem;
+    padding: .8rem 0;
+    width: 5.75rem;
     border-width: 0;
     font-weight: 600;
 }
@@ -83,12 +87,14 @@ h1,h2,h3,h4,h5,h6{
 
 .firstTitle{
     margin: .5rem 0;
+    font-size: 3rem;
 }
 .secondTitle{
+    font-size: 3rem;
     margin: 0 auto;
-    width: 25%;
+    width: 30%;
     color: #3A83F6;
-    border: 2px dashed #3A83F6 ;
+    border: 3px dashed #3A83F6 ;
     
  
 }
@@ -97,14 +103,15 @@ h1,h2,h3,h4,h5,h6{
     margin: 1rem auto;
     color: #8B929A;
     text-align: center;
+    font-size: 1.1rem;
 }
 .info .mainInfo{
     width: 30%;
-    font-size: .7rem;
+    
 }
 
 .GetStartedBtn{
-    width: 10rem;
+    width: 16rem;
     margin: 0 auto;
     background-color: #3A83F6;
     color: #FFF;
@@ -112,7 +119,7 @@ h1,h2,h3,h4,h5,h6{
     border-radius: .2rem;
     font-size: 1.2rem;
     font-weight: 700;
-    padding: .7rem 0;
+    padding: 1rem 0;
     
 }
 
@@ -124,15 +131,18 @@ h1,h2,h3,h4,h5,h6{
 /*      WHY ME PAGE       */
 
 .whyMe{
-   
-    max-width: 70rem;
     margin: 0 auto;
     position: relative;
+   
 }
 .whyMeimgBg{
     position: absolute;
     z-index: -1;
-    width: 100%;
+    max-width: 92.8rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
 }
 
 
@@ -180,7 +190,7 @@ h1,h2,h3,h4,h5,h6{
 .blockTitle .centerLogo{
     display: block;
    margin: 0 auto;
-    width: 35%;
+    width: 41%;
     
 
 }
@@ -234,7 +244,7 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     margin: 2rem auto;
     line-height: 1.5rem;
-    font-size: .9rem;
+    
 }
 
 .whyMeBtn{
@@ -251,30 +261,36 @@ h1,h2,h3,h4,h5,h6{
 .aboutBlock{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 2rem 0;
+    box-sizing: content-box;
 }
 
 .aboutImg{
-    width: 49%;
-    padding: .3rem;
+    width: 50%;
+    
 }
 .aboutImg img{
     width: 100%;
 }
 .aboutInfo{
-    width: 49%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: .3rem  4rem;
+    padding: .3rem   0 0 0rem;
+    
 }
 .aboutInfoTitle{
     font-weight: 700;
+    font-size: 2.5rem;
 }
 
 .aboutInfoTxt{
     color: #8B929A;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 400;
    
 }
 
@@ -284,7 +300,7 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     margin: 2rem auto;
     line-height: 1.5rem;
-    font-size: .9rem;
+    
 }
 
 
@@ -310,31 +326,41 @@ h1,h2,h3,h4,h5,h6{
     border: 1px solid #3E4857 ;
     box-shadow: 5px 5px 0 0px #C0D9FF;
     display: flex;
+    padding: 1rem;
 }
 
 .priceBlock{
     box-sizing: content-box;
-    width: 25%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin: 1rem 2rem;
+    margin: 1rem 0;
     color: #3E4957;
-    padding: 2rem 0 ;
+    padding: 1rem 0 ;
+}
+.priceBlockBig{
+    width: 40%;
+ 
 }
 
 .priceInfo{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .benefits{
-    margin: 1rem 0;
+    margin: 1.3rem 0;
 }
 
 .priceOprion{
-    margin: .6rem 0;
     
+    height: 5rem;
     font-size: 1.2rem;
+}
+.priceOprion img{
+    margin-top: 3px;
 }
 
 .priceListCost{
