@@ -92,7 +92,7 @@ p{
 .secondTitle{
     font-size: 3rem;
     margin: 0 auto;
-    width: 30%;
+    width: 40%;
     color: #3A83F6;
     border: 3px dashed #3A83F6 ;
     
@@ -445,6 +445,9 @@ p{
     padding: 1rem 3rem;
     box-sizing: border-box;
 
+}
+.scopeBlock img{
+    margin: 1rem 0;
 }
 .scopeNumbers{
     margin: 0 1rem;
