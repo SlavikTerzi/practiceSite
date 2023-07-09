@@ -8,9 +8,15 @@
 </head>
 <body>
 
-    <div class="container">
+    
         
-        <header class="header">
+    <header class="header">
+        <div class="container">
+        <div class="headerBody">
+            <div class="headerBurger" id="burger">
+                <span></span>
+            </div>
+           
             <a class="logo" >
                 <img src="img/logo.png" alt="">
                 
@@ -23,26 +29,37 @@
                     <a href="#"></a>
                     <a href="#"></a>
                 </nav>
-                <div class="logIn">
-                    <button class="loginBtn">Login</button>
-                    <a class="lang" href="#">EN<i class="arrowDown"></i></a>
-                </div>
+                
             </div>
-
-        </header>
+            <div class="logIn">
+                <button class="loginBtn">Login</button>
+                <a class="lang" >EN<i class="arrowDown"></i>
+                    <ul>
+                        <li>EN</li>
+                        <li>UA</li>
+                        <li>PL</li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+            
+        </div>
+    </header>
     
-        
+    <div class="container">
         <div class="main">
-
-            <h1 class="firstTitle">Flexible Constructor for Creating</h1>
-            <h1 class="secondTitle">Perfect Websites</h1>
-            <div class="info">
-                <span class="mainInfo">
-                    Build a website that fits your needs, not the other way around with our 
-                    flexible website constructor ME-Page!
-                </span>
+            <div class="place">
+                <h1 class="firstTitle">Flexible Constructor for Creating</h1>
+                <h1 class="secondTitle">Perfect Websites</h1>
+                <div class="info">
+                    <span class="mainInfo">
+                        Build a website that fits your needs, not the other way around with our 
+                        flexible website constructor ME-Page!
+                    </span>
+                </div>
+                <button class="GetStartedBtn">Get started</button>
             </div>
-            <button class="GetStartedBtn">Get started</button>
+            
 
             
             <img class="mainImg" src="img/img1.png" alt="">
@@ -94,6 +111,43 @@
                     
                 </div>
 
+                <div class="mobileBlock">
+                    <div class="blockTitle bold "><h2>Features</h2> <img class="centerLogo" src="img/logo.png" alt=""> </div>
+                    <div class="lineMain"></div>
+                    <div class="blockOption"><h3>Share Project</h3> <img class="icon" src="img/iconYes.png" alt=""></div>
+                    <div class="line"></div>
+                    <div class="blockOption"><h3>Customized Templates</h3> <img class="icon" src="img/iconYes.png" alt=""></div>
+                    <div class="line"></div>
+                    <div class="blockOption"><h3>Customized Ready-made Blocks</h3> <img class="icon" src="img/iconYes.png" alt=""></div>
+                    <div class="line"></div>
+                    <div class="blockOption"><h3>HTML and CSS editing</h3> <img class="icon" src="img/iconYes.png" alt=""></div>
+                    <div class="line"></div>
+                    <div class="blockOption"><h3>Advanced Mode</h3> <img class="icon" src="img/iconYes.png" alt=""></div>
+                    <div class="line"></div>
+                    <div class="blockOption"><h3>Average Price</h3> <h3>$10</h3></div>
+                    <div class="line"></div>
+                    <div class="blockOption"><h3>Customer Support</h3> <h3>24/7 live chat and email</h3></div>
+                </div>
+
+                <div class="mobileBlock">
+                    <div class="blockTitle bold"><h2>Features</h2> <h3 class="lover">Other WEB Constructors</h3></div>
+                    <div class="lineMain"></div>
+                    <div class="blockOption"><h3>Share Project</h3> <img src="img/iconNo.png" class="icon" alt=""></div>
+                    <div class="line"></div>
+                    <div class="blockOption "><h3>Customized Templates</h3> Limited</div>
+                    <div class="line"></div>
+                    <div class="blockOption "><h3>Customized Ready-made Blocks</h3> <img src="img/iconNo.png" class="icon" alt=""></div>
+                    <div class="line"></div>
+                    <div class="blockOption "><h3>HTML and CSS editing</h3> <img src="img/iconNo.png" class="icon" alt=""></div>
+                    <div class="line"></div>
+                    <div class="blockOption "><h3>Advanced Mode</h3> <img src="img/iconNo.png" class="icon" alt=""></div>
+                    <div class="line"></div>
+                    <div class="blockOption "><h3>Average Price</h3> <h3>$20</h3></div>
+                    <div class="line"></div>
+                    <div class="blockOption"><h3>Customer Support</h3> <h3>Email only</h3></div>
+                    
+                </div>
+                
                 
 
             </div><!--whyMeBlocks-->
@@ -121,7 +175,7 @@
             </div>
 
             <div class="aboutBlock">
-                <div class="aboutImg">
+                <div class="aboutImg " >
                     <img  src="img/aboutImg1.png" alt="">
                 </div>
                     
@@ -144,7 +198,7 @@
 
             <div class="aboutBlock">
                
-                    
+              
 
                 <div class="aboutInfo">
                     <h2 class="aboutInfoTitle">
@@ -156,10 +210,10 @@
                     
                     </div>
                 </div>
-
-                <div class="aboutImg">
+                <div class="aboutImg" >
                     <img  src="img/aboutImg2.png" alt="">
                 </div>
+               
 
             </div>
 
@@ -188,9 +242,9 @@
 
             <div class="aboutBlock">
                
-                    
+                   
 
-                <div class="aboutInfo">
+                <div class="aboutInfo" >
                     <h2 class="aboutInfoTitle">
                         Big Library of <br>
                         Ready-made Blocks
@@ -205,7 +259,7 @@
 
                 <div class="aboutImg">
                     <img  src="img/aboutImg4.png" alt="">
-                </div>
+                </div> 
 
             </div>
 
@@ -221,13 +275,14 @@
 
     </div><!--container-->
 
+    <h5 class="titleTxt">Plans</h5>
+    <h1 class="titleTxtBig">Pick the Best Plan for You</h1>
 
     <div class="priceListBlock">
 
         <img class="priceListBg" src="img/priceListBg.png" alt="">
         <div class="container">
-            <h5 class="titleTxt">Plans</h5>
-            <h1 class="titleTxtBig">Pick the Best Plan for You</h1>
+            
 
             <div class="priceList">
                 <a class="currency" href="#">USD <i class="arrowDown2"></i></a>
@@ -331,6 +386,9 @@
 
             </div><!-- priceList -->
 
+
+            
+
         </div><!--container-->
 
 
@@ -341,36 +399,133 @@
     </div><!--priceListBlock-->
 
     <div class="container">
+        <div class="sliderPrice middle">
+                
+            <div class="slides">
+
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2" >
+                <input type="radio" name="r" id="r3" >
+                
+                <div class="slide s1">
+                    
+                    <h2 class="priceListCost">Free <div class="cost">$0<span class="priceListTime">/month</span></div></h2>
+
+                    <div class="priceOprion "><div>Created web Pages</div><div>100 Pages</div></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Created Projects</div><div>5 Projects</div></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Share Projects / Pages</div><div></div>10 Projects</div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Ready-made Blocks</div><div>20 Blocks</div></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Templates</div><div>100 Templates</div></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Advanced Mode</div><img src="img/iconNo.png" alt=""></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Personal Support Manager</div><img src="img/iconYes.png" alt=""></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion"><div>No Advertising</div><img src="img/iconNo.png" alt=""></div>
+                
+                </div>
+
+                <div class="slide">
+
+                    <h2 class="priceListCost"><div> Monthly <span class="popular">Popular</span></div><div class="cost">$10<span class="priceListTime">/month</span></div></h2>
+
+                    <div class="priceOprion "><div>Created web Pages</div><div>100 Pages</div></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Created Projects</div><div>5 Projects</div></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Share Projects / Pages</div><div></div>10 Projects</div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Ready-made Blocks</div><div>20 Blocks</div></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Templates</div><div>100 Templates</div></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Advanced Mode</div><img src="img/iconNo.png" alt=""></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Personal Support Manager</div><img src="img/iconYes.png" alt=""></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion"><div>No Advertising</div><img src="img/iconNo.png" alt=""></div>
+                
+                </div>
+
+                <div class="slide">
+
+                    <h2 class="priceListCost"><div> Annualy <span class="popular">Optional</span></div><div class="cost">$10<span class="priceListTimeBetter">/month</span></div></h2>                        
+                    <div class="priceOprion "><div>Created web Pages</div><div>100 Pages</div></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Created Projects</div><div>5 Projects</div></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Share Projects / Pages</div><div></div>10 Projects</div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Ready-made Blocks</div><div>20 Blocks</div></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Templates</div><div>100 Templates</div></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Advanced Mode</div><img src="img/iconNo.png" alt=""></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion "><div>Personal Support Manager</div><img src="img/iconYes.png" alt=""></div>
+                    <div class="underLine"></div>
+                    <div class="priceOprion"><div>No Advertising</div><img src="img/iconNo.png" alt=""></div>
+                
+                </div>
+
+            </div>
+
+            <div class="slidesNavigation">
+                <div class="lableMiddle">
+                    <label for="r1" class="bar"></label>
+                    <label for="r2" class="bar"></label>
+                    <label for="r3" class="bar"></label>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="container">
         <div class="scope">
             <div class="scopeBlock">
-                <img class="scopeIcon" src="img/scopeIcon1.png" alt="">
-                <div class="scopeNumbers">
-                    <h1>567+</h1>
-                    <p>Template Blocks</p>
+                <div class="scopeMiddle">
+                    <img class="scopeIcon" src="img/scopeIcon1.png" alt="">
+                    <div class="scopeNumbers">
+                        <h1>567+</h1>
+                        <p>Template Blocks</p>
+                    </div>
                 </div>
             </div>
 
             <div class="scopeBlock">
-                <img class="scopeIcon" src="img/scopeIcon2.png" alt="">
+                <div class="scopeMiddle">
+                    <img class="scopeIcon" src="img/scopeIcon2.png" alt="">
                 <div class="scopeNumbers">
                     <h1>45+</h1>
                     <p>Template </p>
                 </div>
-            </div>
-
-            <div class="scopeBlock">
-                <img class="scopeIcon" src="img/scopeIcon3.png" alt="">
-                <div class="scopeNumbers">
-                    <h1>323+</h1>
-                    <p>Pages Created</p>
                 </div>
             </div>
 
             <div class="scopeBlock">
-                <img class="scopeIcon" src="img/scopeIcon4.png" alt="">
+                <div class="scopeMiddle">
+                    <img class="scopeIcon" src="img/scopeIcon3.png" alt="">
+                <div class="scopeNumbers">
+                    <h1>323+</h1>
+                    <p>Pages Created</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="scopeBlock">
+                <div class="scopeMiddle">
+                    <img class="scopeIcon" src="img/scopeIcon4.png" alt="">
                 <div class="scopeNumbers">
                     <h1>187+</h1>
                     <p>Happy Clients</p>
+                </div>
                 </div>
             </div>
 
@@ -395,45 +550,45 @@
                 <div class="faqBlock">
                     <div>
                         <h2>What is a ME-Page constructor?</h2>
-                        <div class="faqUnderline active"></div>
-                        <p class="addInfo active">
+                        <div class="faqUnderline s1 activeFaq"></div>
+                        <p class="addInfo s1 activeFaq">
                             A ME-Page constructor is a tool that allows users to easily create and customize their own web pages without requiring any knowledge of coding.
                         </p>
                     </div>
-                    <a href="#" class="arrowBtn"><i class="arrowDown2"></i></a>
+                    <a id="FaqMore1"  class="arrowBtn"><i class="arrowDown2"></i></a>
                 </div>
 
                 <div class="faqBlock">
                     <div>
                         <h2>How does a ME-Page constructor work?</h2>
-                        <div class="faqUnderline"></div>
-                        <p class="addInfo">
+                        <div class="faqUnderline s2"></div>
+                        <p class="addInfo s2">
                             A ME-Page constructor is a tool that allows users to easily create and customize their own web pages without requiring any knowledge of coding.
                         </p>
                     </div>
-                    <a href="#" class="arrowBtn"><i class="arrowDown2"></i></a>
+                    <a id="FaqMore2" class="arrowBtn"><i class="arrowDown2"></i></a>
                 </div>
 
                 <div class="faqBlock">
                     <div>
                         <h2>Are there any limitations to using a ME-Page?</h2>
-                        <div class="faqUnderline"></div>
-                        <p class="addInfo">
+                        <div class="faqUnderline 3"></div>
+                        <p class="addInfo 3">
                             A ME-Page constructor is a tool that allows users to easily create and customize their own web pages without requiring any knowledge of coding.
                         </p>
                     </div>
-                    <a href="#" class="arrowBtn"><i class="arrowDown2"></i></a>
+                    <a id="FaqMore3" class="arrowBtn"><i class="arrowDown2"></i></a>
                 </div>
 
                 <div class="faqBlock">
                     <div>
                         <h2>Can ME-Page be used to create mobile-responsive websites?</h2>
-                        <div class="faqUnderline"></div>
-                        <p class="addInfo">
+                        <div class="faqUnderline 4"></div>
+                        <p class="addInfo 4">
                             A ME-Page constructor is a tool that allows users to easily create and customize their own web pages without requiring any knowledge of coding.
                         </p>
                     </div>
-                    <a href="#" class="arrowBtn"><i class="arrowDown2"></i></a>
+                    <a id="FaqMore4" class="arrowBtn"><i class="arrowDown2"></i></a>
                 </div>
                 
 
@@ -459,7 +614,7 @@
                 <img class="templatesImg" src="img/templatesImg2.png" alt="">
                 <img class="templatesImg" src="img/templatesImg1.png" alt="">
             </div>
-            <div class="templatesRow">
+            <div class="templatesRow1">
                 <img class="templatesImg" src="img/templatesImg2.png" alt="">
                 <img class="templatesImg" src="img/templatesImg1.png" alt="">
                 <img class="templatesImg" src="img/templatesImg2.png" alt="">
@@ -522,7 +677,7 @@
              <div class="readyToTryInfo">
                  ME-Page have made website building more accessible than ever before, and their key features make it easy for anyone to create a professional-looking  website in a matter of hours.
              </div>
-             <button class="GetStartedBtn whyMeBtn">Get started</button>
+             <button class="GetStartedBtn whyMeBtn1">Get started</button>
         </div>
 
     </div>
@@ -572,7 +727,7 @@
 
     </footer>
 
-
+    <script src="/script.js"></script>
     
 </body>
 </html>
