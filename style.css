@@ -9,7 +9,7 @@ body{
 .container{
     display: block;
     max-width: 81.25rem;
-    
+    margin: 0 auto;
     
 }
 
@@ -21,7 +21,9 @@ p{
     margin: 0;
 }
 @media (max-width:767px){
-   
+    .container{
+        margin: 0 1rem;
+    }
 }
 
 /*      HEADER      */
@@ -30,7 +32,7 @@ p{
     
     
     
-    position: fixed;
+   
     width: 100%;
     background-color:   #F2F7FF ;
     top: 0;
@@ -39,12 +41,12 @@ p{
     z-index: 5;
 }
 .headerBody{
-    
+    width: 100%;
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
     align-items: center;
-}
+}   
 .logo img{
     max-width: 100%;
     
@@ -57,7 +59,7 @@ p{
     display: flex;
     justify-content: space-between;
     
-    width: 20%;
+    
     
 }
 .navAndLogIn nav{
@@ -147,18 +149,23 @@ p{
         margin: 1rem;
     }
     .header{
-        display: flex;
+       
         width: 100%;
         height: 5rem;
         
         
     }
 
+    .headerBody{
+        width: 100%;
+        margin: 0;
+    }
+
     .logIn{
         position: relative;
         z-index: 6;
-        margin: 0 3rem;
-        
+        margin: 0 1rem;
+        width: 50%;
     }
     
     
@@ -183,7 +190,7 @@ p{
 .logIn{
     display: flex;
     align-items: center;
-    width: 25%;
+    width: 15%;
     align-self: flex-end;
     
 }
