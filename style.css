@@ -5,9 +5,12 @@ body{
     background-color: #F3F4FF;
     width: 100%; 
 }
+*{
+    box-sizing: border-box;
+}
 
 .container{
-    display: block;
+    
     max-width: 81.25rem;
     margin: 0 auto;
     
@@ -31,7 +34,7 @@ p{
 .header{
     
     
-    
+    overflow: hidden;
    
     width: 100%;
     background-color:   #F2F7FF ;
@@ -67,6 +70,12 @@ p{
 }
 .headerBurger{
     display: none;
+}
+
+@media (min-width:900px){
+    .headerBody{
+        width: 80%;
+    }
 }
 
 @media (max-width:767px) {
@@ -601,7 +610,7 @@ p{
 }
 
 .priceList{
-    width: 100%;
+    width: 99%;
     background-color: #FFF;
     border-radius: .5rem;
     border: 1px solid #3E4857 ;
