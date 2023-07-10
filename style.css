@@ -9,7 +9,7 @@ body{
 .container{
     display: block;
     max-width: 81.25rem;
-    margin: 0 auto;
+    
     
 }
 
@@ -21,9 +21,7 @@ p{
     margin: 0;
 }
 @media (max-width:767px){
-    .container{
-        margin: 0 auto;
-    }
+   
 }
 
 /*      HEADER      */
@@ -41,9 +39,10 @@ p{
     z-index: 5;
 }
 .headerBody{
+    
     display: flex;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .logo img{
@@ -150,7 +149,7 @@ p{
     .header{
         display: flex;
         width: 100%;
-        height: 3rem;
+        height: 5rem;
         
         
     }
@@ -164,6 +163,22 @@ p{
     
     
 }
+
+@media (max-width:451px){
+    .logIn{
+        margin: 0 .5rem;
+    }
+   
+    .headerBody{
+        width: 100%;
+        margin: 0;
+    }
+    .logo{
+        margin: .2rem;
+        width: 30%;
+    }
+}
+
 
 .logIn{
     display: flex;
@@ -838,6 +853,22 @@ p{
 
 }
 
+@media (max-width:450px){
+    .scopeNumbers{
+        font-size: 1.5rem;
+    }
+
+    .scopeMiddle{
+        margin: .3rem .3rem;
+        width: 90%;
+    }
+
+    .scopeMiddle img{
+        width: 7rem;
+        height: 7rem;
+    }
+}
+
 @media (max-width:510px){
     .scopeBlock{
         margin: 1rem 1rem;
@@ -1071,6 +1102,14 @@ p{
 @media (max-width:767px){
     .articlesSlider{
         width: 30%;
+    }
+
+    .articlesBlock{
+        display: none;
+    }
+    .articlesBlock.visible{
+        display: block;
+        width: 95%;
     }
 }
 
