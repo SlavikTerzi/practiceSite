@@ -1178,6 +1178,17 @@ p{
     
 }
 
+@media (min-width:900px){
+    .centerTxtImg{
+        width: 30%;
+    }
+    .centerTxtImg img{
+        width: 7rem;
+        height: 3rem;
+        
+    }
+}
+
 /*      FOOOTER     */
 
 .footer{
